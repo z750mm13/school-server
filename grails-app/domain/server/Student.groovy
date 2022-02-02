@@ -15,7 +15,7 @@ class Student {
         lastname(nullable:false, blank:false)
         email(unique:true, nullable:false, blank:false,email:true)
         semester(nullable:false, blank:false)
-        enrollment inList: ['Enfermeria','Maestrias','Doctorados']
+        enrollment inList: ['Licenciaturas','Maestrias','Doctorados']
         specialty inList: ['Enfermeria','Software','Arquitectura','Fiscal','Educacion','Comunicacion','Gastronomia']
     }
 
