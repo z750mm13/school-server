@@ -1,0 +1,8 @@
+import server.Student
+
+model {
+	Iterable<Student> studentList
+}
+
+json tmpl.student(studentList ?: [])
+

@@ -1,0 +1,7 @@
+import server.Student
+
+model {
+	Student student
+}
+
+json g.render(student, [resolveTemplate: false])
